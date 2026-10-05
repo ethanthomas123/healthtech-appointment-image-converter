@@ -1,0 +1,13 @@
+{
+  "name": "healthtech-image-format-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "test": "tsx src/appointment_media.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "tsx": "^4.19.0", "typescript": "^5.6.3", "@types/node": "^22.10.0" }
+}
